@@ -8,22 +8,20 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <>
+    <div className="flex max-h-screen min-h-screen w-full">
       <Navbar />
-      <div className="min-h-screen p-8 pt-24">
+      <div className="w-full p-4">
         <div className="">
-          <h2 className="text-2xl font-bold font-josefin">Hello Chirag!</h2>
+          <h2 className="font-josefin text-2xl font-bold">Hello Chirag!</h2>
           {/*<h3 className="text-2xl font-bold font-josefin">
             Welcome to SandboxGPT,
           </h3>*/}
-          <p className="text-sm font-mono">How can I help you today?</p>
+          <p className="font-mono text-sm">How can I help you today?</p>
 
-          <Button variant={"outline"} className="font-mono font-medium">
-            Click Me
-          </Button>
+          <Button className="">Click Me</Button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
